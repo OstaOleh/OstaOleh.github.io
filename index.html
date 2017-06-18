@@ -12,11 +12,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	
 
+
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#000">
 	<!-- Windows Phone -->
@@ -27,6 +31,16 @@
 </head>
 
 <body>
+	<div class="preload">
+		<div class="cssload-thecube">
+			<div class="cssload-cube cssload-c1"></div>
+			<div class="cssload-cube cssload-c2"></div>
+			<div class="cssload-cube cssload-c4"></div>
+			<div class="cssload-cube cssload-c3"></div>
+		</div>
+	</div>
+
+
 	<header>
 		<div class="container">
 			<div class="row">
@@ -111,22 +125,43 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="owl-carousel about-slides">
-						<div class="about-slide about-slide__second">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum repellat accusantium dolor quasi voluptate nobis voluptatum unde saepe sed. Quis et animi praesentium aperiam aliquam inventore. Saepe, quo, id.
-						</div>
-						<div class="about-slide about-slide__blue">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum repellat accusantium dolor quasi voluptate nobis voluptatum unde saepe sed. Quis et animi praesentium aperiam aliquam inventore. Saepe, quo, id.
-						</div>
-						<div class="about-slide about-slide__orange">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum earum repellat accusantium dolor quasi voluptate nobis voluptatum unde saepe sed. Quis et animi praesentium aperiam aliquam inventore. Saepe, quo, id.
-						</div>
-					</div>
-
+		</div>
+		<div class=" about-slidess">
+			<div class="about-slide about-slide__second">
+				<div class="about-slide-img">
+					<img src="img/icons/boss.svg" alt="alt">
 				</div>
+				<div class="about-slide-text">
+					Всім привіт! Мене звати Олег я Front-end developer. З дитинства я любив складати пазли і зараз я перйшов від пазлів до сайтів, я зрозумів що це моє, і я хочу посвятити всього себе! З цього часу я стараюсь кожного дня пізнавти щось нове у цій сфері. 
+					<ul>
+						Моїм завдання є:
+						<li>Верстка нових сторінок із PSD макетів</li>
+						<li>Адаптація нових і готових сторінок під мобільні пристрої</li>
+						<li>Реализація JavaScript логики (слайдери, попапи, анимації, AJAX і т.д.)</li>
+					</ul>
+				</div>	
+				
 			</div>
+			<div class="about-slide about-slide__blue">
+				<div class="about-slide-img">
+					<img src="img/icons/puzzle.svg" alt="alt">
+				</div>
+				<div class="about-slide-text">
+					Коротко про себе
+					На даному етапі мого життя головна задача і ціль -це досягнення нових вершин у Web-розробці. Для цьогоя багато часу приділяю вивченню технологій і цим покращую свії навики і знання. 
+					<ul>
+						Цьому мені сприяють такі навики: 
+						<li>Наполегливість</li>
+						<li>Відповідальність</li>
+						<li>Комунікабельність</li>
+						<li>Вміння працювати в команді</li>
+						<li>Увага до деталей</li>
+					</ul>
+				</div>	
+				
+			</div>
+
+
 		</div>
 	</section>
 	<section id="s-devices" class="acordeon">
@@ -629,7 +664,7 @@
 				<div class="row">
 					<div class="col-md-6">
 						<h4 class="h4">Про себе</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat, atque tenetur sed blanditiis ratione. Fugiat rem nobis, odit consequatur minus quidem, fuga molestias ullam architecto sequi molestiae nesciunt quo.</p>	
+						<p>На даному етапі мого життя головна задача і ціль -це досягнення нових вершин у Web-розробці. Для цьогоя багато часу приділяю вивченню технологій і цим покращую свії навики і знання. </p>	
 					</div>
 					<div class="col-md-6">
 						<h4 class="h4">Контактна інформація</h4>
