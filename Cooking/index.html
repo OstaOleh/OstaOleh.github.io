@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Main page</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="main/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="main/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="main/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="main/img/favicon/apple-touch-icon-114x114.png">
+    <meta name="theme-color" content="#000">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <link rel="stylesheet" href="main/css/main.min.css">
+  </head>
+  <body class="index-page">
+    <div class="wrapper">
+      <nav class="nav" id="nav">
+        <div class="logo">
+          <div class="logo-item" style="background-image: url(main/img/icons/svg/logo.svg);"></div>
+        </div>
+        <ul class="nav-list nav-list__content-center">
+          <li class="nav-item"><a class="nav-link nav-link-active" href="#">РЕЦЕПТЫ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ПРОДУКТЫ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">КАК ПРИГОТОВИТЬ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">КУЛИНАРНАЯ КНИГА</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">ЗДОРОВЬЕ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">АВТОРЫ</a></li>
+        </ul>
+        <ul class="lang-list">
+          <li class="lang-item"><a class="lang-link lang-link-active" href="#">RU</a>
+          </li>
+          <li class="lang-item"><a class="lang-link" href="#">ENG</a>
+          </li>
+        </ul>
+        <ul class="social-list social-list__flex">
+          <li class="social-item"><a class="social-link social-link-vk" href="#"><i class="demo-icon o-vk"> </i></a></li>
+          <li class="social-item"><a class="social-link social-link-facebook" href="#"><i class="demo-icon o-facebook"> </i></a></li>
+          <li class="social-item"><a class="social-link social-link-instagram" href="#"><i class="demo-icon o-instagram"> </i></a></li>
+          <li class="social-item"><a class="social-link social-link-google" href="#"><i class="demo-icon o-google"> </i></a></li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="icons icons__paddingTandB icons__flex">
+                <div class="icons-hamburger">
+                  <div class="hamburger-inner"></div>
+                </div>
+                <ul class="icons-list icons-list__flex">
+                  <li class="icons-item icons-item-active" id="icons-item-active"><a class="icons-link" href="#"><i class="demo-icon o-bell"></i></a></li>
+                  <li class="icons-item"><a class="icons-link" href="#"><i class="demo-icon o-user"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <section class="section-name">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="icon__wrap">
+                  <div class="section-icon" style="background-image: url(main/img/icons/svg/palma.svg);"></div>
+                </div>
+                <h1 class="h1 h1__center h1__mb">ПОДБОР РЕЦЕПТОВ</h1>
+                <div class="select-section select-section__mb">
+                  <div class="select-box">
+                    <div class="select__wrap">
+                      <select class="select" name="xxxyyy">
+                        <option value="Выпечка и десерты">Выпечка и десерты</option>
+                        <option value="Выпечка и десерты 2">Выпечка и десерты 2</option>
+                        <option value="Выпечка и десерты 3">Выпечка и десерты 3</option>
+                      </select>
+                    </div>
+                    <div class="select__wrap">
+                      <select class="select" name="xxxyyy">
+                        <option value="Любое блюдо">Любое блюдо</option>
+                        <option value="Первое">Первое</option>
+                        <option value="Десерт">Десерт</option>
+                      </select>
+                    </div>
+                    <div class="select__wrap">
+                      <select class="select" name="xxxyyy">
+                        <option value="Любая кухня">Любая кухня</option>
+                        <option value="Японська">Японська</option>
+                        <option value="Испанська">Испанська</option>
+                      </select>
+                    </div>
+                    <div class="select__wrap">
+                      <select class="select" name="xxxyyy">
+                        <option value="Любое меню">Любое меню</option>
+                        <option value="Любое меню 2">Любое меню 2</option>
+                        <option value="Любое меню 3">Любое меню 3</option>
+                      </select>
+                    </div>
+                    <div class="select__wrap">
+                      <select class="select" name="xxxyyy">
+                        <option value="Сложность">Сложность</option>
+                        <option value="Легкое">Легкое</option>
+                        <option value="Среднее">Среднее</option>
+                        <option value="Сложное">Сложное</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="btn-box"><a class="btn">Ингредиенты, детали</a><a class="btn">Подобрать рецепты</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="dishes-section">
+                  <figure class="dishes__wrap dishes__wrap__animate-showH2">
+                    <div class="img__wrap"><img src="main/img/dishes/1.jpg" alt="Dish 1"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute__flex">
+                      <div class="dish-inf">БЛЮДО ДНЯ</div>
+                      <div class="dish-name dish-name__hidden">
+                        <h2 class="h2 h2__upper h2__center h2__bold">КУРИНЫЕ НОЖКИ НА ГРИЛЕ</h2>
+                      </div>
+                      <div class="dish-logo" style="background-image: url(main/img/icons/appliances.png);"></div>
+                    </figcaption>
+                  </figure>
+                  <figure class="dishes__wrap dishes__wrap__animate-showH2">
+                    <div class="img__wrap"><img src="main/img/dishes/2.jpg" alt="Dish 2"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute__flex">
+                      <div class="dish-inf">ЛУЧШИЕ РЕЦЕПТЫ НЕДЕЛИ</div>
+                      <div class="dish-name dish-name__hidden">
+                        <h2 class="h2 h2__upper h2__center h2__bold">7 ЛУЧШИХ РЕЦЕПТОВ НЕДЕЛИ</h2>
+                      </div>
+                      <div class="dish-logo" style="background-image: url(main/img/icons/appliances.png);"></div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="dishes-section">
+                  <figure class="dishes__wrap dishes__wrap_little dishes__wrap__long">
+                    <div class="img__wrap"><img src="main/img/dishes/3.jpg" alt="Dish 3"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute">
+                      <div class="dish-inf dish-inf__onBlackBg"> <i class="demo-icon o-hat"></i> полезное</div>
+                      <div class="dish-name dish-name__onWhiteBg">
+                        <h2 class="h2 h2__upper">КАК ПРИГОТОВИТЬ ПИРОГ В ОДНОЙ ПОСУДЕ 5 РЕЦЕПТОВ</h2>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="dishes__wrap dishes__wrap_little dishes__wrap__short">
+                    <div class="img__wrap"><img src="main/img/dishes/4.jpg" alt="Dish 4"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute">
+                      <div class="dish-inf dish-inf__onBlackBg"> <i class="demo-icon o-hat"></i> полезное</div>
+                      <div class="dish-name dish-name__onWhiteBg">
+                        <h2 class="h2 h2__upper">КАК ПРИГОТОВИТЬ СЫРНЫЙ ТОРТ С ОВОЩАМИ </h2>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="dishes__wrap dishes__wrap_little dishes__wrap__short">
+                    <div class="img__wrap"><img src="main/img/dishes/5.jpg" alt="Dish 5"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute">
+                      <div class="dish-inf dish-inf__onBlackBg"> <i class="demo-icon o-hat"></i> полезное</div>
+                      <div class="dish-name dish-name__onWhiteBg">
+                        <h2 class="h2 h2__upper">10 ПРОСТЫХ НАПИТКОВ В ЖАРУ </h2>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="dishes__wrap dishes__wrap_little dishes__wrap__short">
+                    <div class="img__wrap"><img src="main/img/dishes/6.jpg" alt="Dish 6"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute">
+                      <div class="dish-inf dish-inf__onBlackBg"> <i class="demo-icon o-hat"></i> полезное</div>
+                      <div class="dish-name dish-name__onWhiteBg">
+                        <h2 class="h2 h2__upper">ЧТО ТАКОЕ МЕД ? </h2>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="dishes__wrap dishes__wrap_little dishes__wrap__short">
+                    <div class="img__wrap"><img src="main/img/dishes/7.jpg" alt="Dish 7"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute">
+                      <div class="dish-inf dish-inf__onBlackBg"> <i class="demo-icon o-hat"></i> полезное</div>
+                      <div class="dish-name dish-name__onWhiteBg">
+                        <h2 class="h2 h2__upper">КАК ПРАВИЛЬНО ЗАМЕСИТЬ ДРОЖЕВОЕ ТЕСТО </h2>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="dishes__wrap dishes__wrap_little dishes__wrap__long">
+                    <div class="img__wrap"><img src="main/img/dishes/8.jpg" alt="Dish 8"></div>
+                    <figcaption class="dish-inf_wrap dish-inf_wrap__absolute">
+                      <div class="dish-inf dish-inf__onBlackBg"> <i class="demo-icon o-hat"></i> полезное</div>
+                      <div class="dish-name dish-name__onWhiteBg">
+                        <h2 class="h2 h2__upper">ЧЕЛОВЕК, КОТОРЫЙ ДЕЛАЕТ ЛУЧШИЕ МИТБОЛЫ В БЕЛЬГИИ</h2>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-name">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="icon__wrap">
+                  <div class="section-icon" style="background-image: url(main/img/icons/svg/palma.svg);"></div>
+                </div>
+                <h1 class="h1 h1__center h1__mb">рецепты</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="recipe-menu__wrap">
+                  <ul class="recipe-menu-list recipe-menu-list__greyBG recipe-menu-list__center recipe-menu-list__inlineBlock">
+                    <li class="recipe-menu-item recipe-menu-item-active"><a class="recipe-menu-link" href="#">Новые рецепты</a></li>
+                    <li class="recipe-menu-item recipe-menu-item"><a class="recipe-menu-link" href="#">Популярные</a></li>
+                    <li class="recipe-menu-item recipe-menu-item"><a class="recipe-menu-link" href="#">Рекомендуем</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="recipte-section__wrap">
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/1.jpg" alt="Recipe 1">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> утиные ножки с овощами и грудинкой</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 135 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец чёрный, зелень петрушки...</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/2.jpg" alt="Recipe 2">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> салат из свеклы с козьим сыром и медовой заправкой</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 35 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/3.jpg" alt="Recipe 3">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> американский тыквенный пирог с корицей</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 240 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/4.jpg" alt="Recipe 4">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> салат «цезарь» традиционный</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 107 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец чёрный</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/5.jpg" alt="Recipe 5">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> соте из брюссельской капусты с варено-копченым окороком</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 135 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/6.jpg" alt="Recipe 6">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> жареные баклажаны с помидорами</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 35 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/7.jpg" alt="Recipe 7">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> наварен из говядины</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 240 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/8.jpg" alt="Recipe 8">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> брюссельская капуста с белым соусом с сыром</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 107 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец чёрный</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/9.jpg" alt="Recipe 9">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> печеночный торт с морковью и луком</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 240 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной,соль, перец чёрный, зелень петрушки...</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure class="recipte-item recipte-item__flex">
+                    <div class="img__wrap"><img src="main/img/reciptes/10.jpg" alt="Recipe 10">
+                      <div class="recipe-item-author">
+                        <div class="recipe-item-author-img"><img src="main/img/pecipte_author.png" alt="Author"></div>
+                        <div class="recipte-item-author-name">Daria Fedorenko	</div>
+                      </div>
+                    </div>
+                    <figcaption class="recipte-item-inf recipte-item-inf__border">
+                      <h2 class="h2 h2__black h2__center"> классический крабовый салат с огурцом и мидиями</h2>
+                      <ul class="recipte-item-short-inf-list recipte-item-short-inf-list__flex">
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-clock"></i><span class="recipte-item-short-inf-time"> 107 мин </span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-hat"></i><span class="recipte-item-short-inf-time"> Сложно 		</span></li>
+                        <li class="recipte-item-short-inf-item recipte-item-short-inf-item__round"><i class="demo-icon o-runner"></i><span class="recipte-item-short-inf-time"> 125 ккал </span></li>
+                      </ul>
+                      <div class="recipte-item-ingredients"> говядина, масло топлёное, лук репчатый, морковь, редька, перец сладкий, помидоры, томат-пюре, картофель, чеснок, бульон мясной, соль, перец чёрный</div>
+                      <div class="recipte-item-madia recipte-item-madia__flex recipte-item-madia__border recipte-item-madia__absolute">
+                        <div class="recipte-item-likes"><a class="recipte-item-likes-link" href="#"><i class="demo-icon o-heart"> </i><span class="recipte-item-likes-num">16</span></a></div>
+                        <ul class="recipte-item-socials-list recipte-item-socials-list__flex">
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-vk"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-facebook"></i></a></li>
+                          <li class="recipte-item-socials-item"><a class="recipte-item-socials-link" href="#"><i class="demo-icon o-odnoklassniki"></i></a></li>
+                        </ul>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-name">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="icon__wrap">
+                  <div class="section-icon" style="background-image: url(main/img/icons/svg/palma.svg);"></div>
+                </div>
+                <h1 class="h1 h1__center h1__mb">#ГОРЯЧАЯПОДБОРКА</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul class="hotReciptes-list hotReciptes-list__flex">
+                  <li class="hotReciptes-item"><a class="hotReciptes-link" href="#">
+                      <div class="img__wrap"><img src="main/img/hotReciptes/1.jpg" alt="Hot Recipte1"></div>
+                      <div class="hotReciptes-descr">ПОХМЕЛЬНЫЕ РЕЦЕПТЫ				</div></a></li>
+                  <li class="hotReciptes-item"><a class="hotReciptes-link" href="#">
+                      <div class="img__wrap"><img src="main/img/hotReciptes/2.jpg" alt="Hot Recipte2"></div>
+                      <div class="hotReciptes-descr">МАСЛЕНИЦА				</div></a></li>
+                  <li class="hotReciptes-item"><a class="hotReciptes-link" href="#">
+                      <div class="img__wrap"><img src="main/img/hotReciptes/3.jpg" alt="Hot Recipte3"></div>
+                      <div class="hotReciptes-descr">РЕЦЕПТЫ ДЛЯ ДЕТЕЙ				</div></a></li>
+                  <li class="hotReciptes-item"><a class="hotReciptes-link" href="#">
+                      <div class="img__wrap"><img src="main/img/hotReciptes/4.jpg" alt="Hot Recipte4"></div>
+                      <div class="hotReciptes-descr">ЗДОРОВОЕ ПИТАНИЕ				</div></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-name">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="section-title section-title__center">ТОП АВТОРОВ</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10 col-md-push-1">
+                <ul class="authors-list authors-list__flex">
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/1.png" alt="author1"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/2.png" alt="author2"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/3.png" alt="author3"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/4.png" alt="author4"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/5.png" alt="author5"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/6.png" alt="author6"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/7.png" alt="author7"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/8.png" alt="author8"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/9.png" alt="author9"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/10.png" alt="author10"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/11.png" alt="author11"></a></li>
+                  <li class="authors-item"> <a class="authors-link" href=""><img src="main/img/authors/12.png" alt="author12"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="dispatch-line dispatch-line__bgc">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="dispatch dispatch__center">
+                  <div class="dispatch-name">ПОДПИШИТЕСЬ НА РАССЫЛКУ РЕЦЕПТОВ И СОВЕТОВ</div>
+                  <form class="dispatch-form" action="#">
+                    <input class="dispatch-footer" type="text" name="dispatch-footer" placeholder="аддрес електронной почты"><a class="footer-submit" href="#"><i class="demo-icon o-right-arrow"></i></a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-menu-line">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="footer-menu-list">
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">ГЛАВНАЯ</a></li>
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">РЕЦЕПТЫ</a></li>
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">ИДЕИ</a></li>
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">ЖУРНАЛ</a></li>
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">АВТОРЫ</a></li>
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">РЕКЛАМА</a></li>
+                  <li class="footer-menu-item"><a class="footer-menu-link" href="#">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="footer-socials">
+                  <li class="social-item"><a class="social-link social-link-vk" href="#"><i class="demo-icon o-vk"> </i></a></li>
+                  <li class="social-item"><a class="social-link social-link-facebook" href="#"><i class="demo-icon o-facebook"> </i></a></li>
+                  <li class="social-item"><a class="social-link social-link-instagram" href="#"><i class="demo-icon o-instagram"> </i></a></li>
+                  <li class="social-item"><a class="social-link social-link-google" href="#"><i class="demo-icon o-google"> </i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="main/js/scripts.min.js"></script>
+</html>
