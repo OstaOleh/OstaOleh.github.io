@@ -16,4 +16,3 @@
 .o-printer:before { content: '\e80f'; } /* '' */
 .o-supper:before { content: '\e810'; } /* '' */
 .o-time-left:before { content: '\e811'; } /* '' */
-.o-plus:before { content: '\e812'; } /* '' */

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'cooking';
-  src: url('../font/cooking.eot?34182795');
-  src: url('../font/cooking.eot?34182795#iefix') format('embedded-opentype'),
-       url('../font/cooking.woff2?34182795') format('woff2'),
-       url('../font/cooking.woff?34182795') format('woff'),
-       url('../font/cooking.ttf?34182795') format('truetype'),
-       url('../font/cooking.svg?34182795#cooking') format('svg');
+  src: url('../font/cooking.eot?647166');
+  src: url('../font/cooking.eot?647166#iefix') format('embedded-opentype'),
+       url('../font/cooking.woff2?647166') format('woff2'),
+       url('../font/cooking.woff?647166') format('woff'),
+       url('../font/cooking.ttf?647166') format('truetype'),
+       url('../font/cooking.svg?647166#cooking') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'cooking';
-    src: url('../font/cooking.svg?34182795#cooking') format('svg');
+    src: url('../font/cooking.svg?647166#cooking') format('svg');
   }
 }
 */
@@ -72,4 +72,3 @@
 .o-printer:before { content: '\e80f'; } /* '' */
 .o-supper:before { content: '\e810'; } /* '' */
 .o-time-left:before { content: '\e811'; } /* '' */
-.o-plus:before { content: '\e812'; } /* '' */
