@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop detail product</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="main/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="main/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="main/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="main/img/favicon/apple-touch-icon-114x114.png">
+    <meta name="theme-color" content="#000">
+    <meta name="msapplication-navbutton-color" content="#000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  </head>
+  <body class="prod-descr-page">
+    <div class="wrapper">
+      <header class="header">
+        <div class="top-menu top-menu__bgc">
+          <div class="container">
+            <div class="top-menu-lists top-menu-lists__flex">
+              <div class="top-menu-lang-lists top-menu-lang-lists__flex">
+                <div class="lang-list__wrap"><a class="lang-link-active" href="#" tabindex="0"><span class="lang-item-active">EN</span><i class="ion-arrow-down-b"></i></a>
+                  <ul class="lang-list">
+                    <li class="lang-item lang-item-hidden lang-item-EN" data-item="EN"><a class="lang-link lang-link-EN" href="#">EN</a></li>
+                    <li class="lang-item lang-item-hidden lang-item-UA" data-item="UA"><a class="lang-link lang-link-UA" href="#">UA</a></li>
+                    <li class="lang-item lang-item-hidden lang-item-RU" data-item="RU"><a class="lang-link lang-link-RU" href="#">RU</a></li>
+                  </ul>
+                </div>
+                <div class="currency-list__wrap"><a class="currency-link-active" href="#" tabindex="0"><span class="currency-item-active">USD</span><i class="ion-arrow-down-b"></i></a>
+                  <ul class="currency-list">
+                    <li class="currency-item currency-item-USD" data-item="USD"><a class="currency-link currency-link-USD" href="#">USD			</a></li>
+                    <li class="currency-item currency-item-UAH" data-item="UAH"><a class="currency-link currency-link-UAH" href="#">UAH			</a></li>
+                    <li class="currency-item currency-item-RUB" data-item="RUB"><a class="currency-link currency-link-RUB" href="#">RUB			</a></li>
+                  </ul>
+                </div>
+              </div>
+              <nav class="top-menu-inf-list">
+                <ul class="inf-list">
+                  <li class="inf-item inf-item-Help &amp; Contact"><a class="inf-link inf-link-Help &amp; Contact" href="#">Help &amp; Contact</a></li>
+                  <li class="inf-item inf-item-Order Status"><a class="inf-link inf-link-Order Status" href="#">Order Status</a></li>
+                  <li class="inf-item inf-item-My Account"><a class="inf-link inf-link-My Account" href="#">My Account</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="main-menu">
+          <div class="container">
+            <div class="main-menu-items"><a class="main-menu-logo" href="#">
+                <div class="main-menu-logo-text">
+                  <div class="main-menu-logo-text--bold">Media</div>
+                  <div class="main-menu-logo-text--normal">market</div>
+                </div></a>
+              <div class="main-menu-search-fild">
+                <input class="main-menu-input" type="text" name="search" placeholder="Search for products...">
+                <div class="main-menu-search-selected"><a class="main-menu-search-selected-link" href="#"><span class="main-menu-search-selected-active">All Categories</span>
+                    <div class="main-menu-search-selected-arrows"><i class="ion-arrow-up-b"></i><i class="ion-arrow-down-b"></i></div></a>
+                  <ul class="main-menu-search-list">
+                    <li class="main-menu-search-item" data-item="Today’s Deals"><a class="main-menu-search-link" href="#">Today’s Deals	</a></li>
+                    <li class="main-menu-search-item" data-item="Best Sellers"><a class="main-menu-search-link" href="#">Best Sellers	</a></li>
+                    <li class="main-menu-search-item" data-item="New Arrivals"><a class="main-menu-search-link" href="#">New Arrivals	</a></li>
+                    <li class="main-menu-search-item" data-item="Appliances"><a class="main-menu-search-link" href="#">Appliances	</a></li>
+                    <li class="main-menu-search-item" data-item="TV &amp; Audio"><a class="main-menu-search-link" href="#">TV &amp; Audio	</a></li>
+                    <li class="main-menu-search-item" data-item="Computers &amp; Laptops"><a class="main-menu-search-link" href="#">Computers &amp; Laptops	</a></li>
+                    <li class="main-menu-search-item" data-item="Cameras &amp;  Photos"><a class="main-menu-search-link" href="#">Cameras &amp;  Photos	</a></li>
+                    <li class="main-menu-search-item" data-item="Cell Phones &amp; Tablets"><a class="main-menu-search-link" href="#">Cell Phones &amp; Tablets	</a></li>
+                    <li class="main-menu-search-item" data-item="Video Games"><a class="main-menu-search-link" href="#">Video Games	</a></li>
+                    <li class="main-menu-search-item" data-item="Movie and Music"><a class="main-menu-search-link" href="#">Movie and Music	</a></li>
+                    <li class="main-menu-search-item" data-item="Car Electronics &amp; GPS"><a class="main-menu-search-link" href="#">Car Electronics &amp; GPS	</a></li>
+                    <li class="main-menu-search-item" data-item="Wearable Technology"><a class="main-menu-search-link" href="#">Wearable Technology	</a></li>
+                    <li class="main-menu-search-item" data-item="Gadgets"><a class="main-menu-search-link" href="#">Gadgets	</a></li>
+                    <li class="main-menu-search-item" data-item="Show More"><a class="main-menu-search-link" href="#">Show More	</a></li>
+                  </ul>
+                </div><a class="main-menu-submit" href="#"><i class="ion-ios-search"></i></a>
+              </div>
+              <div class="main-menu-wishlist">
+                <ul class="wishlist-list">
+                  <li class="wishlist-item wishlist-item-arrow-swap"><a class="wishlist-link wishlist-linkarrow-swap" href="#"><i class="ion ion-arrow-swap"></i><span class="wishlist-numb">0</span></a></li>
+                  <li class="wishlist-item wishlist-item-ios-heart-outline"><a class="wishlist-link wishlist-linkios-heart-outline" href="#"><i class="ion ion-ios-heart-outline"></i><span class="wishlist-numb">0</span></a></li>
+                  <li class="wishlist-item wishlist-item-bag"><a class="wishlist-link wishlist-linkbag" href="#"><i class="ion ion-bag"></i><span class="wishlist-numb wishlist-numb-not-empty">2</span></a></li>
+                  <li class="wishlist-item wishlist-item-price"><a class="wishlist-link wishlist-linkprice" href="#"><span class="wishlist-symbol">$</span><span class="wishlist-money">0.00</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shop_category">
+          <div class="container">
+            <div class="shop_category-menus shop_category-menus__flex">
+              <div class="hamburger">
+                <div class="hamburger-inner"></div>
+              </div>
+              <nav class="shop_category-menu"><a class="shop_category-menu-btn" href="#">shop by category<i class="ion-arrow-down-b"></i></a>
+                <ul class="shop_category-list sf-menu sf-vertical">
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__bold" href="#">Today’s Deals</a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__bold" href="#">Best Sellers</a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__bold" href="#">New Arrivals</a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Appliances<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">TV &amp; Audio<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Computers &amp; Laptops<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Cameras &amp;  Photos<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Cell Phones &amp; Tablets<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Video Games<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Movie and Music<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Car Electronics &amp; GPS<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Wearable Technology<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Gadgets<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="shop_category-item"><a class="shop_category-link shop_category-link__flex" href="#">Show More<i class="ion-ios-arrow-forward"></i><i class="ion-ios-arrow-down"></i>
+                      <ul class="shop_category-inner-menu-list">
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">contact</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">FAQ</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">404 page</a></li>
+                        <li class="shop_category-inner-menu-item"><a class="shop_category-inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                </ul>
+              </nav>
+              <nav class="main-menu-list__wrap">
+                <ul class="main-menu-list main-menu-list__flex sf-menu">
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">home<i class="ion-chevron-down"></i>
+                      <ul class="inner-menu-list">
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">contact</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">FAQ</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">404 page</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">shop<i class="ion-chevron-down"></i>
+                      <ul class="inner-menu-list">
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">contact</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">FAQ</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">404 page</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">blog<i class="ion-chevron-down"></i>
+                      <ul class="inner-menu-list">
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">contact</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">FAQ</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">404 page</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">pages<i class="ion-chevron-down"></i>
+                      <ul class="inner-menu-list">
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">contact</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">FAQ</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">404 page</a></li>
+                        <li class="inner-menu-item"><a class="inner-menu-link" href="#">comming soon</a></li>
+                      </ul></a></li>
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">products</a></li>
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">brands</a></li>
+                  <li class="main-menu-item"><a class="main-menu-link main-menu-link__red-color" href="#">today`s deals</a></li>
+                  <li class="main-menu-item"><a class="main-menu-link" href="#">new arrivals</a></li>
+                </ul>
+                <div class="main-menu-search-fild">
+                  <input class="main-menu-input" type="text" name="search" placeholder="Search for products...">
+                  <div class="main-menu-search-selected"><a class="main-menu-search-selected-link" href="#"><span class="main-menu-search-selected-active">All Categories</span>
+                      <div class="main-menu-search-selected-arrows"><i class="ion-arrow-up-b"></i><i class="ion-arrow-down-b"></i></div></a>
+                    <ul class="main-menu-search-list">
+                      <li class="main-menu-search-item" data-item="Today’s Deals"><a class="main-menu-search-link" href="#">Today’s Deals	</a></li>
+                      <li class="main-menu-search-item" data-item="Best Sellers"><a class="main-menu-search-link" href="#">Best Sellers	</a></li>
+                      <li class="main-menu-search-item" data-item="New Arrivals"><a class="main-menu-search-link" href="#">New Arrivals	</a></li>
+                      <li class="main-menu-search-item" data-item="Appliances"><a class="main-menu-search-link" href="#">Appliances	</a></li>
+                      <li class="main-menu-search-item" data-item="TV &amp; Audio"><a class="main-menu-search-link" href="#">TV &amp; Audio	</a></li>
+                      <li class="main-menu-search-item" data-item="Computers &amp; Laptops"><a class="main-menu-search-link" href="#">Computers &amp; Laptops	</a></li>
+                      <li class="main-menu-search-item" data-item="Cameras &amp;  Photos"><a class="main-menu-search-link" href="#">Cameras &amp;  Photos	</a></li>
+                      <li class="main-menu-search-item" data-item="Cell Phones &amp; Tablets"><a class="main-menu-search-link" href="#">Cell Phones &amp; Tablets	</a></li>
+                      <li class="main-menu-search-item" data-item="Video Games"><a class="main-menu-search-link" href="#">Video Games	</a></li>
+                      <li class="main-menu-search-item" data-item="Movie and Music"><a class="main-menu-search-link" href="#">Movie and Music	</a></li>
+                      <li class="main-menu-search-item" data-item="Car Electronics &amp; GPS"><a class="main-menu-search-link" href="#">Car Electronics &amp; GPS	</a></li>
+                      <li class="main-menu-search-item" data-item="Wearable Technology"><a class="main-menu-search-link" href="#">Wearable Technology	</a></li>
+                      <li class="main-menu-search-item" data-item="Gadgets"><a class="main-menu-search-link" href="#">Gadgets	</a></li>
+                      <li class="main-menu-search-item" data-item="Show More"><a class="main-menu-search-link" href="#">Show More	</a></li>
+                    </ul>
+                  </div><a class="main-menu-submit" href="#"><i class="ion-ios-search"></i></a>
+                </div>
+                <div class="footer-soc">
+                  <ul class="footer-soc-list">
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-pinterest"></i></a></li>
+                  </ul>
+                </div>
+                <div class="footer-line-copyright">© 2017 Mediamarket. All right reserved</div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <section class="site_way">
+          <div class="container">
+            <div class="site_way-line">
+              <ul class="site_way-list">
+                <li class="site_way-item site_way-item-shop"><a class="site_way-link site_way-link-shop" href="#">shop</a></li>
+                <li class="site_way-item site_way-item-shop detail product large"><a class="site_way-link site_way-link-shop detail product large" href="#">shop detail product large</a></li>
+              </ul>
+              <ul class="site_way-nav-list">
+                <li class="site_way-nav-item"><a class="site_way-nav-link" href="#"><i class="ion-android-arrow-back"></i></a></li>
+                <li class="site_way-nav-item"><a class="site_way-nav-link" href="#"><i class="ion-android-apps"></i></a></li>
+                <li class="site_way-nav-item"><a class="site_way-nav-link" href="#"><i class="ion-android-arrow-forward"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="prod-descr">
+          <div class="container">
+            <div class="prod-descr__wrap">
+              <div class="prod-descr-left"><a class="btn-play" href="#"><i class="ion-ios-play"></i></a><img class="zoom_03" src="main/img/bestSells/big/1.png" data-zoom-image="main/img/bestSells/big/bigger/1.png">
+                <div class="zoom-thumb" id="gallery_01"><a class="elevatezoom-gallery" href="#" data-update="" data-image="main/img/bestSells/big/1.png">
+                    <div class="prod-descr-slide-img" style="background-image: url(main/img/bestSells/big/1.png);" data-zoom-image="main/img/bestSells/big/bigger/1.png"></div></a><a class="elevatezoom-gallery" href="#" data-update="" data-image="main/img/bestSells/big/2.png">
+                    <div class="prod-descr-slide-img" style="background-image: url(main/img/bestSells/big/2.png);" data-zoom-image="main/img/bestSells/big/bigger/2.png"></div></a><a class="elevatezoom-gallery" href="#" data-update="" data-image="main/img/bestSells/big/3.png">
+                    <div class="prod-descr-slide-img" style="background-image: url(main/img/bestSells/big/3.png);" data-zoom-image="main/img/bestSells/big/bigger/3.png"></div></a></div>
+                <div class="prod-descr-left-text">Roll over image to zoom in</div>
+              </div>
+              <div class="prod-descr-right">
+                <div class="prod-descr-right-tag">
+                  <div class="prod-descr-right-tag-name">audio</div>
+                  <div class="prod-descr-right-sale">
+                    <div class="sale-label sale_yellow">-35%</div>
+                    <div class="sale-label sale_green">sale</div>
+                  </div>
+                </div>
+                <div class="prod-descr-right-name">Bose SoundLink Revolve+ Portable Bluetooth Speaker,  with Bose Charging Cradle</div>
+                <div class="prod-descr-right-avaliable">
+                  <div class="prod-descr-right-price">
+                    <div class="prod-descr-right-price-new">$1,199.99</div>
+                    <div class="prod-descr-right-price-old">$1,599.99</div>
+                  </div>
+                  <div class="prod-descr-right-isavalable">avaliable: <span class="prod-descr-right-isavalable-yes">in stock</span></div>
+                </div>
+                <div class="prod-descr-right-rating">
+                  <ul class="rating-list prod-descr-right-rating-list">
+                    <li class="rating-item prod-descr-right-rating-item"><i class="ion-android-star"></i></li>
+                    <li class="rating-item prod-descr-right-rating-item"><i class="ion-android-star"></i></li>
+                    <li class="rating-item prod-descr-right-rating-item"><i class="ion-android-star"></i></li>
+                    <li class="rating-item prod-descr-right-rating-item"><i class="ion-android-star"></i></li>
+                    <li class="rating-item prod-descr-right-rating-item"><i class="ion-android-star-half"></i></li>
+                    <div class="rating-num prod-descr-right-rating-num">(Based on <span class="prod-descr-right-rating-numb">5 </span>reviews)</div>
+                  </ul>
+                </div>
+                <div class="prod-descr-right-descr">Meet SoundLink Revolve+, the best-performing portable Bluetooth speaker from Bose. It’s engineered to spread deep, jaw-dropping sound in every direction—so you get more sound all around. Turn it on and get immersed in the song.</div>
+                <div class="prod-descr-right-best">
+                  <ul class="prod-descr-right-best-list">
+                    <li class="prod-descr-right-best-item">– The best-performing portable speaker from Bose</li>
+                    <li class="prod-descr-right-best-item">– Flexible fabric handle makes it easy to grab and go</li>
+                    <li class="prod-descr-right-best-item">– Pair two speakers together for stereo or party mode playback</li>
+                  </ul>
+                </div>
+                <div class="prod-descr-right-sku">sku:<span class="prod-descr-right-sku-num">93799</span></div>
+                <div class="prod-descr-right-form">QTY:
+                  <div class="qty__wrap">
+                    <input class="qty qty-prod-descr" type="text" name="qty" value="01" minlength="1" data-num="1">
+                    <div class="qty-btns"><a class="btn-add" href="#"><i class="ion-ios-arrow-up"></i></a><a class="btn-min" href="#"><i class="ion-ios-arrow-down"></i></a></div>
+                  </div>
+                  <div class="prod-descr-right-form-seclects">
+                    <div class="select__wrap seclect-color__wrap">
+                      <select>
+                        <option value="" hidden>Select Color</option>
+                        <option value="red">red</option>
+                      </select>
+                    </div>
+                    <div class="select__wrap seclect-style__wrap">
+                      <select>
+                        <option value="" hidden>Select style</option>
+                        <option value="cool">cool</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="prod-descr-right-btns"><a class="btn btn-red btn-round" href="#">Add to cart</a>
+                  <div class="prod-descr-right-icon_btns"><a class="btn-add_wish" href="#">
+                      <div class="btn-add_wish-icon"><i class="ion-ios-heart-outline"></i></div>
+                      <div class="btn-add_wish-text">Add to wishlist</div></a><a class="btn-add_compare" href="#">
+                      <div class="btn-add_compare-icon"><i class="ion-arrow-swap"></i></div>
+                      <div class="btn-add_wish-text">Add to compare</div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="discount">
+          <div class="container">
+            <div class="discount__wrap">
+              <div class="section-name section-name-border">
+                <h3 class="h3"><span class="h3__bold">Buy this bundle </span> and get off to 25%</h3>
+              </div>
+              <div class="discount-list__wrap">
+                <ul class="discount-list">
+                  <li class="discount-item">
+                    <div class="discount-item-img__wrap">
+                      <div class="discount-item-img" style="background-image: url(main/img/trend/1.png);"></div>
+                    </div>
+                    <div class="discount-item-price">$449.99</div>
+                    <div class="discount-item-inf">
+                      DJI Goggles <br>
+                      Immersive FPV
+                    </div>
+                    <div class="discount-item-select">
+                      <input class="discount-item-select-checkbox" type="checkbox" name="discount">
+                      <div class="discount-item-select-text">Selecte</div>
+                    </div>
+                  </li>
+                  <li class="discount-item">
+                    <div class="discount-item-img__wrap">
+                      <div class="discount-item-img" style="background-image: url(main/img/trend/2.png);"></div>
+                    </div>
+                    <div class="discount-item-price">$449.99</div>
+                    <div class="discount-item-inf">
+                      DJI Goggles <br>
+                      Immersive FPV
+                    </div>
+                    <div class="discount-item-select">
+                      <input class="discount-item-select-checkbox" type="checkbox" name="discount">
+                      <div class="discount-item-select-text">Selecte</div>
+                    </div>
+                  </li>
+                  <li class="discount-item">
+                    <div class="discount-item-img__wrap">
+                      <div class="discount-item-img" style="background-image: url(main/img/trend/3.png);"></div>
+                    </div>
+                    <div class="discount-item-price">$114.99</div>
+                    <div class="discount-item-inf">
+                      Google Dual-Band <br>
+                      Wi-Fi Router
+                    </div>
+                    <div class="discount-item-select">
+                      <input class="discount-item-select-checkbox" type="checkbox" name="discount">
+                      <div class="discount-item-select-text">Selecte</div>
+                    </div>
+                  </li>
+                  <li class="discount-item">
+                    <div class="discount-item-img__wrap">
+                      <div class="discount-item-img" style="background-image: url(main/img/trend/4.png);"></div>
+                    </div>
+                    <div class="discount-item-price">$559.95</div>
+                    <div class="discount-item-inf">
+                      Gear Controller <br>
+                      Step Into Rift
+                    </div>
+                    <div class="discount-item-select">
+                      <input class="discount-item-select-checkbox" type="checkbox" name="discount">
+                      <div class="discount-item-select-text">Selecte</div>
+                    </div>
+                  </li>
+                  <li class="discount-item">
+                    <div class="discount-item-img__wrap">
+                      <div class="discount-item-img" style="background-image: url(main/img/trend/5.png);"></div>
+                    </div>
+                    <div class="discount-item-price">$99.95</div>
+                    <div class="discount-item-inf">
+                      Oculus <br>
+                      Rift + Touch
+                    </div>
+                    <div class="discount-item-select">
+                      <input class="discount-item-select-checkbox" type="checkbox" name="discount">
+                      <div class="discount-item-select-text">Selecte</div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="discount-total-price__wrap">
+                  <div class="discount-total-price-price">
+                    <div class="discount-total-price-sec">
+                      <div class="discount-total-price-text">total price</div>
+                      <div class="discount-total-price-num">$1,199.99</div>
+                    </div>
+                    <div class="discount-total-price-descr">Bundle Price for Selected items</div>
+                  </div>
+                  <div class="discount-total-price-btn"><a class="btn btn-round" href="#">Add Bundle to Cart</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="descr_prod">
+          <div class="container">
+            <div class="descr-prod-tabs__wrap">
+              <div class="descr-prod-tabs section-name-border">
+                <div class="section-name">
+                  <h3 class="h3"><span class="h3__bold">Description </span> Product</h3>
+                </div>
+                <ul class="descr-prod-tabs-list">
+                  <li class="descr-prod-tabs-item active descr-prod-tabs-item-descroption"><a class="descr-prod-tabs-link descr-prod-tabs-link-descroption" href="#">descroption</a></li>
+                  <li class="descr-prod-tabs-item  descr-prod-tabs-item-specification"><a class="descr-prod-tabs-link descr-prod-tabs-link-specification" href="#">specification</a></li>
+                  <li class="descr-prod-tabs-item  descr-prod-tabs-item-shipping"><a class="descr-prod-tabs-link descr-prod-tabs-link-shipping" href="#">shipping</a></li>
+                  <li class="descr-prod-tabs-item  descr-prod-tabs-item-reviews"><a class="descr-prod-tabs-link descr-prod-tabs-link-reviews" href="#">reviews
+                      <div class="descr-prod-tabs-link-num">(3)</div></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="descr-prod-item__wrap">
+            <div class="container">
+              <div class="descr-prod-item">
+                <div class="descr-prod-item-text"><a class="descr-prod-item-text-utube" href="#"><i class="ion-social-youtube"></i>Tutorials available on Youtube</a>
+                  <div class="descr-prod-item-text-name">Leave your phone alone</div>
+                  <p class="descr-prod-item-text-p">This true 360° speaker was engineered to spread deep, jaw-dropping sound in every direction. That means, when everyone stands around it, everyone gets the same experience. </p>
+                  <div class="descr-prod-item-text-advantages">
+                    <div class="descr-prod-item-text-advantage">
+                      <div class="descr-prod-item-text-advantage-icon"><i class="ion-leaf"></i></div>
+                      <div class="descr-prod-item-text-advantage-name">DESIGN & DEVELOPING</div>
+                      <p class="descr-prod-item-text-advantage-p">The best-performing portable speaker from Bose</p><a class="descr-prod-item-text-advantage-link" href="#">Read more</a>
+                    </div>
+                    <div class="descr-prod-item-text-advantage">
+                      <div class="descr-prod-item-text-advantage-icon"><i class="ion-ribbon-b"></i></div>
+                      <div class="descr-prod-item-text-advantage-name">HIGH-QUALITY</div>
+                      <p class="descr-prod-item-text-advantage-p">The best-performing portable speaker from Bose</p><a class="descr-prod-item-text-advantage-link" href="#">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="descr-prod-item-img__wrap"><img src="main/img/bestSells/big/2.png" alt="">
+                  <div class="descr-prod-item-img-popup descr-prod-item-img-popup-0" data-title="High-quality plastic with removable"><i class="ion-android-add"></i></div>
+                  <div class="descr-prod-item-img-popup descr-prod-item-img-popup-1" data-title="High-quality plastic with removable"><i class="ion-android-add"></i></div>
+                  <div class="descr-prod-item-img-popup descr-prod-item-img-popup-2" data-title="High-quality plastic with removable"><i class="ion-android-add"></i></div>
+                </div>
+                <div class="descr-prod-item-descr">
+                  <div class="descr-prod-item-descr-img__wrap"><img src="main/img/bestSells/big/3.png" alt=""></div>
+                  <div class="descr-prod-item-descr-text">
+                    <div class="descr-prod-item-descr-text-rating">
+                      <ul class="rating-list descr-prod-item-descr-text-rating-list">
+                        <li class="rating-item descr-prod-item-descr-text-rating-item"><i class="ion-android-star"></i></li>
+                        <li class="rating-item descr-prod-item-descr-text-rating-item"><i class="ion-android-star"></i></li>
+                        <li class="rating-item descr-prod-item-descr-text-rating-item"><i class="ion-android-star"></i></li>
+                        <li class="rating-item descr-prod-item-descr-text-rating-item"><i class="ion-android-star"></i></li>
+                        <li class="rating-item descr-prod-item-descr-text-rating-item"><i class="ion-android-star-half"></i></li>
+                        <div class="rating-num descr-prod-item-descr-text-rating-num">(Based on <span class="descr-prod-item-descr-text-rating-numb">5 </span>reviews)</div>
+                      </ul>
+                    </div>
+                    <div class="descr-prod-item-descr-text-name">
+                      SoundLink Revolve + Portable <br>
+                      Bluetooth speaker
+                    </div>
+                    <p class="descr-prod-item-descr-text-p">Meet SoundLink Revolve+, the best-performing portable Bluetooth speaker from Bose. It’s engineered to spread deep, jaw-dropping sound in every direction.</p>
+                    <div class="descr-prod-item-descr-text-advantages">
+                      <div class="descr-prod-item-descr-text-advantage">
+                        <div class="descr-prod-item-descr-text-advantage-icon"><i class="ion-fireball"></i></div>
+                        <div class="descr-prod-item-descr-text-advantage-text">
+                          <div class="descr-prod-item-descr-text-advantages-text-name">HIGH-QUALITY</div>
+                          <p class="descr-prod-item-descr-text-advantages-text-p">Some of the people that are playing, and that have few rounds to play in the tournament don’t count the drinks</p>
+                        </div>
+                      </div>
+                      <div class="descr-prod-item-descr-text-advantage">
+                        <div class="descr-prod-item-descr-text-advantage-icon"><i class="ion-heart"></i></div>
+                        <div class="descr-prod-item-descr-text-advantage-text">
+                          <div class="descr-prod-item-descr-text-advantages-text-name">AWESOME DESIGN</div>
+                          <p class="descr-prod-item-descr-text-advantages-text-p">Some of the people that are playing, and that have few rounds to play in the tournament don’t count the drinks</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="sell_prod">
+          <div class="container">
+            <div class="section-name section-name-border">
+              <h3 class="h3"><span class="h3__bold">best sellers </span>products</h3>
+              <div class="sell_prod-carousel-arrows"></div>
+            </div>
+            <div class="sell_prod-carousel owl-carousel"><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/1.png);"></div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$499.99</div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  Hover Camera Passport <br>
+                  Personal Photographer
+                </div></a><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/2.png);"></div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sale-label sale_green">sale</div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$295</div>
+                  <div class="sell_prod-slide-price-old">$399.95</div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  Bose SoundLink Revolve+ <br>
+                  Bluetooth Speaker
+                </div></a><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/3.png);"></div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$299.99</div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  GoPro HERO5 <br>
+                  Session Camera
+                </div></a><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/4.png);"></div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sale-label sale_blue">new</div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$295</div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  AirPods <br>
+                  White Color  
+                </div></a><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/5.png);"></div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$109.95</div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  Beats Black <br>
+                  Earphones
+                </div></a><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/6.png);"></div>
+                </div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$229.95</div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  August Smart Lock <br>
+                  HomeKit Enabled
+                </div></a><a class="sell_prod-slide border" href="#">
+                <div class="sell_prod-slide-img__wrap">
+                  <div class="sell_prod-slide-img" style="background-image: url(main/img/bestSells/6.png);"></div>
+                </div>
+                <div class="sell_prod-slide-price price">
+                  <div class="sell_prod-slide-price-new">$229.95</div>
+                </div>
+                <div class="add-to-box add-to-box-sell_prod-slide add-to-box-hidden">
+                  <div class="add-to-box-like"><i class="ion-ios-heart-outline"></i></div>
+                  <div class="add-to-box-swap"><i class="ion-arrow-swap"></i></div>
+                </div>
+                <div class="sell_prod-slide-inf">
+                  August Smart Lock <br>
+                  HomeKit Enabled
+                </div></a></div>
+          </div>
+        </section>
+        <section class="allSections">
+          <div class="container">
+            <div class="allSections__wrap">
+              <div class="allSections-col">
+                <div class="allSections-col-name">
+                  <h3 class="h3"><span class="h3__bold">on sale </span>products</h3>
+                </div>
+                <ul class="allSections-col-list">
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/bestSells/1.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Beats Solo Wireless</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/bestSells/2.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Devialet Phantom</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/bestSells/3.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Bose SoundLink</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                </ul>
+              </div>
+              <div class="allSections-col">
+                <div class="allSections-col-name">
+                  <h3 class="h3"><span class="h3__bold">Featured </span>Products </h3>
+                </div>
+                <ul class="allSections-col-list">
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/trend/1.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Bose SoundLink</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/trend/2.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Apple Watch Nike+</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/trend/3.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">AirPods White Color</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                </ul>
+              </div>
+              <div class="allSections-col">
+                <div class="allSections-col-name">
+                  <h3 class="h3"><span class="h3__bold">Top Rated </span>Products</h3>
+                </div>
+                <ul class="allSections-col-list">
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/viuwed/1.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Sonos Boost</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/viuwed/2.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Parrot Mabmo Drone</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/viuwed/3.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Canon EOS 5D Mark</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                </ul>
+              </div>
+              <div class="allSections-col">
+                <div class="allSections-col-name">
+                  <h3 class="h3"><span class="h3__bold">New Arrivals </span>products</h3>
+                </div>
+                <ul class="allSections-col-list">
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/newArrivals/1.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">R2–D2 Droid</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/newArrivals/2.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Nest Cam IQ Indoor</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/newArrivals/3.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Google Dual Band</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                </ul>
+              </div>
+              <div class="allSections-col">
+                <div class="allSections-col-name">
+                  <h3 class="h3"><span class="h3__bold">Best Sales </span>products</h3>
+                </div>
+                <ul class="allSections-col-list">
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/bestSells/1.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Beats Solo Wireless</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/bestSells/2.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Devialet Phantom</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/bestSells/3.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Bose SoundLink</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                </ul>
+              </div>
+              <div class="allSections-col">
+                <div class="allSections-col-name">
+                  <h3 class="h3"><span class="h3__bold">popular </span>products</h3>
+                </div>
+                <ul class="allSections-col-list">
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/recomended/1.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">WF45K6500AV 4.5 </div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/recomended/2.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Parrot Mabmo Drone</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                  <li class="allSections-col-item border"><a class="allSections-col-link" href="#">
+                      <div class="allSections-col-item-img__wrap">
+                        <div class="allSections-col-item-img" style="background-image: url(main/img/recomended/3.png);"></div>
+                      </div>
+                      <div class="allSections-col-item-descr">
+                        <div class="allSections-col-item-descr-inf">Premium UHD TV</div>
+                        <div class="rating allSections-col-item-descr-rating">
+                          <ul class="rating-list allSections-col-item-descr-rating-list">
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star"></i></li>
+                            <li class="rating-item allSections-col-item-descr-rating-item"><i class="ion-android-star-half"></i></li>
+                          </ul>
+                        </div>
+                        <div class="allSections-col-item-descr-price">$3 2999.99</div>
+                      </div></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features">
+          <div class="container">
+            <ul class="features-list">
+              <li class="features-item">
+                <div class="features-item-icon"><i class="demo-icon ecommerce-delivery"></i></div>
+                <div class="features-descr">
+                  <div class="features-descr-bold">Free Delivery</div>
+                  <div class="features-descr-normal">From $50 and up</div>
+                </div>
+              </li>
+              <li class="features-item">
+                <div class="features-item-icon"><i class="demo-icon ecommerce-support"></i></div>
+                <div class="features-descr">
+                  <div class="features-descr-bold">Support Customer</div>
+                  <div class="features-descr-normal">Always 24/7</div>
+                </div>
+              </li>
+              <li class="features-item">
+                <div class="features-item-icon"><i class="demo-icon ecommerce-security"></i></div>
+                <div class="features-descr">
+                  <div class="features-descr-bold">Secure Payments</div>
+                  <div class="features-descr-normal">Safe shopping	</div>
+                </div>
+              </li>
+              <li class="features-item">
+                <div class="features-item-icon"><i class="demo-icon ecommerce-discount"></i></div>
+                <div class="features-descr">
+                  <div class="features-descr-bold">Discount</div>
+                  <div class="features-descr-normal">From 10%</div>
+                </div>
+              </li>
+              <li class="features-item">
+                <div class="features-item-icon"><i class="demo-icon ecommerce-cashback"></i></div>
+                <div class="features-descr">
+                  <div class="features-descr-bold">Cashback</div>
+                  <div class="features-descr-normal">buy online</div>
+                </div>
+              </li>
+              <li class="features-item">
+                <div class="features-item-icon"><i class="demo-icon ecommerce-bonus"></i></div>
+                <div class="features-descr">
+                  <div class="features-descr-bold">bonus</div>
+                  <div class="features-descr-normal">daily deals</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <footer class="footer">
+        <section class="contacts">
+          <div class="container">
+            <div class="cantacts-box">
+              <div class="contacts-col">
+                <div class="footer-logo"><span class="footer-logo_bold">media</span>market</div>
+                <div class="footer-tel"><a href="tel:+1(732)446–6721">+1(732)446–6721</a></div>
+                <div class="footer-addr">
+                  <address>
+                    Media Market, LLC <br>
+                    5 South Main Street, <br> 
+                    Englishtown, NJ 07726
+                  </address>
+                </div>
+                <div class="footer-soc">
+                  <ul class="footer-soc-list">
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li class="footer-soc-item"><a class="footer-soc-link" href="#"><i class="ion-social-pinterest"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="contacts-col">
+                <div class="contacts-col-name">About Us</div>
+                <ul class="conatcts-list">
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Company info</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">News</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Investors</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Careers</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Government relations</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Policies</a></li>
+                </ul>
+              </div>
+              <div class="contacts-col">
+                <div class="contacts-col-name">Shop by Category</div>
+                <ul class="conatcts-list">
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Taday’s Deals</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Best Sellers</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">New Arrivals</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Top Rated</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Popular</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Featured</a></li>
+                </ul>
+              </div>
+              <div class="contacts-col">
+                <div class="contacts-col-name">Support and Service</div>
+                <ul class="conatcts-list">
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Customer Service</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Protection Plans</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Schedule a Service</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Trade-In Program</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Product Recalls</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="contacts-col">
+                <div class="contacts-col-name">Partnerships</div>
+                <ul class="conatcts-list">
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Affiliate Program</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Developers</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Mediamarket Ignite</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Mediamarket for Education</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Mediamarket Direct</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Advertise with Us</a></li>
+                </ul>
+              </div>
+              <div class="contacts-col">
+                <div class="contacts-col-name">Customer Care</div>
+                <ul class="conatcts-list">
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">My Account</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Track Order</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Shop</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Wishlist</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Compare</a></li>
+                  <li class="conatcts-item"><a class="conatcts-link" href="#">Returns/Exchange</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="footer-line">
+          <div class="container">
+            <div class="footer-line-box">
+              <div class="subscribe-text">
+                <div class="subscribe-text__bold">Get the latest deals and more</div>
+                <div class="subscribe-text__normal">Subscribe our newsletter and get discount 30% off</div>
+              </div>
+              <div class="footer-line-subscribe">
+                <input type="text" name="subscribe" placeholder="Enter your email address"><a class="footer-line-subscribe-submit" href="#"><i class="ion-ios-paperplane"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+  <link rel="stylesheet" href="main/css/main.min.css">
+  <script src="main/js/scripts.min.js"></script>
+</html>

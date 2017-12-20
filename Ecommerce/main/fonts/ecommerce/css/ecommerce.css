@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'ecommerce';
+  src: url('../font/ecommerce.eot?79932175');
+  src: url('../font/ecommerce.eot?79932175#iefix') format('embedded-opentype'),
+       url('../font/ecommerce.woff2?79932175') format('woff2'),
+       url('../font/ecommerce.woff?79932175') format('woff'),
+       url('../font/ecommerce.ttf?79932175') format('truetype'),
+       url('../font/ecommerce.svg?79932175#ecommerce') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'ecommerce';
+    src: url('../font/ecommerce.svg?79932175#ecommerce') format('svg');
+  }
+}
+*/
+ 
+ [class^="ecommerce-"]:before, [class*=" ecommerce-"]:before {
+  font-family: "ecommerce";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.ecommerce-bonus:before { content: '\e800'; } /* '' */
+.ecommerce-discount:before { content: '\e801'; } /* '' */
+.ecommerce-security:before { content: '\e802'; } /* '' */
+.ecommerce-delivery:before { content: '\e803'; } /* '' */
+.ecommerce-cashback:before { content: '\e804'; } /* '' */
+.ecommerce-support:before { content: '\e805'; } /* '' */

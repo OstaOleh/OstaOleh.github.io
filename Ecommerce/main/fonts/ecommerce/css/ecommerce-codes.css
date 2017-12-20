@@ -1,0 +1,7 @@
+
+.ecommerce-bonus:before { content: '\e800'; } /* '' */
+.ecommerce-discount:before { content: '\e801'; } /* '' */
+.ecommerce-security:before { content: '\e802'; } /* '' */
+.ecommerce-delivery:before { content: '\e803'; } /* '' */
+.ecommerce-cashback:before { content: '\e804'; } /* '' */
+.ecommerce-support:before { content: '\e805'; } /* '' */
