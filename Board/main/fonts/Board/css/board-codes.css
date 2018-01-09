@@ -1,0 +1,8 @@
+
+.board-tumblr:before { content: '\e800'; } /* '' */
+.board-twitter:before { content: '\e801'; } /* '' */
+.board-vimeo:before { content: '\e802'; } /* '' */
+.board-pause:before { content: '\e803'; } /* '' */
+.board-next:before { content: '\e804'; } /* '' */
+.board-play:before { content: '\e805'; } /* '' */
+.board-back:before { content: '\e806'; } /* '' */
