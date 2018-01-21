@@ -1,0 +1,10 @@
+
+.quotes-google:before { content: '\e800'; } /* '' */
+.quotes-facebook:before { content: '\e801'; } /* '' */
+.quotes-instagram:before { content: '\e802'; } /* '' */
+.quotes-linkedin:before { content: '\e803'; } /* '' */
+.quotes-pinterest:before { content: '\e805'; } /* '' */
+.quotes-share:before { content: '\e806'; } /* '' */
+.quotes-twitter:before { content: '\e807'; } /* '' */
+.quotes-youtube:before { content: '\e808'; } /* '' */
+.quotes-mail:before { content: '\e809'; } /* '' */
