@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cards</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div id="app" data-tid="App">
+    <div class="new-game">
+      <div class="new-game--bgi"></div>
+      <h1>memory game</h1>
+      <a href="#" data-tid="NewGame-startGame" class="btn">Нaчать игру</a>
+    </div>
+    <div class="game" data-tid="Deck">
+      <div class="conatiner">
+        <div class="inf-sec">
+          <a href="#" class="start-new-game" data-tid="Menu-newGame">Начать заново</a>
+          <div class="score" data-tid="Menu-scores">
+            Очки:
+            <span class="scre-num">0</span>
+          </div>
+        </div>
+        <div class="cards__wrapp">
+          <!-- <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt=""  data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt=""  data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div>
+
+          <div class="card">
+            <img class="card--item face" src="cards/0C.png" alt="" data-tid="Card">
+            <img class="card--item short" src="cards/short.jpg" alt="" data-tid="Card-flipped">
+          </div> -->
+
+
+
+          
+          
+        </div>
+      </div>
+
+    </div>
+<div class="end-game">
+  <div class="end-game--bgi"></div>
+  <p>Поздравляэм!</p>
+  <p class="total-score">Ваш итоговый счет:
+    <span class="total-score--num">594</span>
+  </p>
+  <a href="#" data-tid="EndGame-retryGame" class="btn">Еще раз</a>
+</div>
+  </div>
+<audio id="flip-card" src="cards/Flip - Card2.wav"></audio>
+  <script src="build/app.bundle.js"></script>
+</body>
+
+</html>

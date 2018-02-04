@@ -1,0 +1,137 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 0.02px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 34px;
+
+}
+#app {
+    background-color: #1C7430;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    color: #1C7430;
+    background-color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    opacity: 0.85;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.new-game , .end-game{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.end-game {
+    display: none;
+}
+.new-game--bgi {
+    width: 503px;
+    height: 262px;
+    background-image: url('../Design/assets/StartGame.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.end-game--bgi {
+    width: 516px;
+    height: 275px;
+    background-image: url('../Design/assets/Group 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 9px;
+}
+.conatiner {
+    width: 754px;
+    margin: 0 auto; 
+}
+.cards__wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    margin-bottom: 20px;
+    position: relative;
+    width: 110px;
+    height: 152px;
+}
+.card--item {
+    width: 110px;
+    height: 152px;
+    transition: all .6s ease-in-out;
+    position: absolute;
+    perspective-origin: 0 50%;
+    perspective: 500px;
+    backface-visibility: hidden;
+}
+.face {
+    transform: rotateY(180deg)
+}
+.short {
+    visibility: visible;
+    transform: rotateY(0);
+}
+.card.active > .face {
+    transform: rotateY(0);
+}
+.card.active > .short {
+    transform: rotateY(180deg);
+    visibility: hidden;
+}
+
+.game {
+    display: flex;
+    visibility: hidden;
+    padding-top: 54px;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.game.active {
+    visibility: visible;
+    opacity: 1;
+}
+.inf-sec {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    opacity: 0.8;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.start-new-game {
+    letter-spacing: -0.25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.score {
+    font-weight: 700;
+}
+p {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 0.15px;
+    opacity: 0.85;
+    font-weight: 700;
+    line-height: 35px;
+    color: #fff;
+}
+.total-score {
+    margin-bottom: 40px;
+}
