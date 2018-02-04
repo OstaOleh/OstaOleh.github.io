@@ -155,8 +155,8 @@ const Ui = (function () {
         arr.finallArr.forEach((card, i) => {
             html += `
                 <div class="card">
-                    <img class="card--item face" src="cards/${card}.png" alt=""  data-tid="Card" data-card="${card}">
-                    <img class="card--item short" src="cards/short.jpg" alt=""  data-tid="Card-flipped">
+                    <img class="card--item face" src="Cards/${card}.png" alt=""  data-tid="Card" data-card="${card}">
+                    <img class="card--item short" src="Cards/short.jpg" alt=""  data-tid="Card-flipped">
                  </div>`;
             document.querySelector(gameSelectors.cardsContainer).innerHTML = html;
         })
