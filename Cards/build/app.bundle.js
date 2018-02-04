@@ -9177,7 +9177,7 @@ var Ui = function () {
     var makeCards = function makeCards(arr) {
         var html = '';
         arr.finallArr.forEach(function (card, i) {
-            html += '\n                <div class="card">\n                    <img class="card--item face" src="cards/' + card + '.png" alt=""  data-tid="Card" data-card="' + card + '">\n                    <img class="card--item short" src="cards/short.jpg" alt=""  data-tid="Card-flipped">\n                 </div>';
+            html += '\n                <div class="card">\n                    <img class="card--item face" src="Cards/' + card + '.png" alt=""  data-tid="Card" data-card="' + card + '">\n                    <img class="card--item short" src="Cards/short.jpg" alt=""  data-tid="Card-flipped">\n                 </div>';
             document.querySelector(gameSelectors.cardsContainer).innerHTML = html;
         });
     };
