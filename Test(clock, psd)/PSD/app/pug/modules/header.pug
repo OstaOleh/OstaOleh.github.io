@@ -1,0 +1,60 @@
+header.header
+	.header-bgi(style="background-image: url(main/img/header-bgi.jpg)")
+		.header--top-line
+			.header--logo.header--top-line--logo
+				a(href="#")
+					img(src="main/img/Logo.png", alt="UDP URBAN DEVELOPMENT GROUP")
+			.header--nav__wrap
+				nav.header--nav.nav
+					ul.header--nav--list.nav--list
+						each link, item in nav.navPages
+							li.header--nav--item.nav--item
+								a(href= link).header--nav--link.nav--link
+									| #{item}
+				.header--nav--lang.nav--lang
+					| en
+				.header--nav--search.nav--search
+					input(type="text", name="search" class="inp-search")
+					i.demo-icon.test-search
+			.hamburger
+				.hamburger--inner
+
+
+		.container
+			.header--inner
+				.header-square(style="background-image: url(main/img/header-square.png)")
+				.header-slide--nav
+					.header-slide--nav--items
+						.header-slide--nav--items-arrows
+						.dots
+							.dot-current
+								| 1
+							.slesh
+								| of
+							.dot-atall
+								| 4
+				.header-carousel.owl-carousel
+					.header-slide
+						h1.h1
+							| Hostel for <br>
+							| students of KPI
+
+
+					.header-slide
+						h1.h1
+							| Hostel for <br>
+							| students of KPI
+
+					.header-slide
+						h1.h1
+							| Hostel for <br>
+							| students of KPI
+
+					.header-slide
+						h1.h1
+							| Hostel for <br>
+							| students of KPI
+		.header-mouse
+			i.demo-icon.test-mouse
+
+	

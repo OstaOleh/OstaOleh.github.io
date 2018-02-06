@@ -1,0 +1,38 @@
+section.contacts.contacts__bgc
+	.container
+		.contacts--box
+			.contacts--left
+				h2.h2
+					| contact us
+				ul.contacts--list
+					li.contacts--item
+						i.demo-icon.test-placeholder
+						address.contacts--address
+							| 5, Klovskiy Uzviz Street <br>
+							| 01021 Kiev, Ukraine
+					li.contacts--item
+						i.demo-icon.test-smartphone
+						.contacts--tel
+							a(href="tel:(044) 220 19 50")
+								| (044) 220 19 50
+							a(href="tel:(044) 220 56 72")
+								| (044) 220 56 72
+					li.contacts--item
+						i.demo-icon.test-email
+						.contacts--email
+							a(href="mailto:info@udg.com.ua")
+								| info@udg.com.ua
+
+
+			.contacts--right
+				h2.h2
+					| write us
+				form.contacts--form
+					.inp-wrap
+						input(type="text", name="Your name" placeholder="YOUR NAME"  id="name" class="contacts-inp" required)
+					.inp-wrap
+						input(type="email", name="Your email" placeholder="YOUR EMAIL" id="mail" class="contacts-inp"  required)
+					.inp-wrap
+						textarea(name="message", placeholder="MESSAGE" id="msg" class="contacts-inp contacts-inp-msg")
+
+					input(type="submit", name="submit", value="Send message" class="btn")

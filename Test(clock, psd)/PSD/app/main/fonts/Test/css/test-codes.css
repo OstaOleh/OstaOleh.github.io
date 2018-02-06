@@ -1,0 +1,12 @@
+
+.test-email:before { content: '\e800'; } /* '' */
+.test-facebook-logo:before { content: '\e801'; } /* '' */
+.test-mouse:before { content: '\e802'; } /* '' */
+.test-placeholder:before { content: '\e803'; } /* '' */
+.test-search:before { content: '\e804'; } /* '' */
+.test-smartphone:before { content: '\e805'; } /* '' */
+.test-twitter:before { content: '\e806'; } /* '' */
+.test-vk:before { content: '\e807'; } /* '' */
+.test-vk-1:before { content: '\e80b'; } /* '' */
+.test-right:before { content: '\e80c'; } /* '' */
+.test-left:before { content: '\e80d'; } /* '' */

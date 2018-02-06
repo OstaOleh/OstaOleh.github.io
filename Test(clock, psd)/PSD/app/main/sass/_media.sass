@@ -1,0 +1,255 @@
+@import "bourbon"
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+@media only screen and (max-width : 1178px)
+	.projects--left
+		margin-right: 35px
+@media only screen and (max-width : 1145px)	
+	.projects--box
+		flex-direction: column
+	.projects--list
+		justify-content: center
+	/// news
+
+	.news--item:nth-child(1)
+		margin-left: 0
+	.news--item:nth-child(3)
+		margin-right: 0
+@media only screen and (max-width : 1100px)
+	//news
+	.news--box
+		flex-wrap: wrap	
+		justify-content: center
+	.news--item
+		width: 33%
+	.news--item:nth-child(1),.news--item:nth-child(2)
+		margin-bottom: 30px 
+@media only screen and (max-width : 1020px)
+	.news--item
+		width: 35%
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	// header
+	.header--inner .header-carousel .header-slide
+		padding-left: 100px
+	.header-slide--nav
+		left: 195px
+	.hamburger
+		display: flex
+	.header--nav--lang
+		width: 33px
+		position: absolute
+		top: 30px
+		color: $greenColor
+		&:hover
+			color: #fff
+	.header--nav--search input
+		width: 70%
+		border: 1px solid $greenColor
+		padding-right: 15px
+	.header--nav__wrap
+		flex-direction: column
+		width: 0
+		position: fixed
+		z-index: 1000
+		top: 0
+		right: -15px
+		bottom: 0
+		background-color: #fff
+		padding-left: 15px
+		padding-top: 60px
+		box-sizing: border-box
+		transition: width .4s
+		&.active
+			width: 250px
+	.header--nav--link
+		color: $textColor
+	.header--nav--list
+		flex-direction: column
+		width: 100%
+	.container
+		box-sizing: border-box
+	.about--box
+		flex-direction: column
+	.about--right
+		display: none
+	/// projects
+	.projects--box
+		padding: 0
+	///news
+	.news--item
+		width: 100%
+		margin-right: 0
+	.news--item--inf
+		justify-content: space-between
+	.news--item--img
+		justify-content: center
+		img
+			width: 100%
+			height: 260px
+	.news--item--text .h4
+		text-align: center
+	.news--item:nth-child(1), .news--item:nth-child(3)
+		margin: 0
+
+	/// contacts
+	.contacts--left
+		margin-right: 50px
+@media only screen and (max-width : 830px)
+	.header--inner .header-carousel .header-slide
+		padding-left: 50px
+	.header-slide--nav
+		left: 145px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	// header
+	.header--inner .header-carousel .header-slide .h1
+		font-size: 55px
+	//projects
+	.projects--item
+		margin-right: 0
+	.projects--list
+		flex-direction: column
+
+	.projects--item:nth-child(3)
+		margin-bottom: 20px
+	/// contacts
+	.contacts--box
+		flex-direction: column
+	.contacts--right, .contacts--left
+		width: 100%
+	.contacts--left
+		margin-left: 0
+	.inp-wrap
+		width: 47%
+	.inp-wrap:nth-child(3)
+		width: 98%
+	.contacts--list
+		display: flex
+		width: 100%
+	.contacts--item
+		display: flex
+		flex: 1
+	/// footer
+	.footer--box
+		flex-direction: column
+		align-items: center
+		text-align: center
+	.footer
+		height: auto
+@media only screen and (max-width : 675px)
+	.header--inner .header-carousel .header-slide .h1
+		padding-left: 20px
+	.header-slide--nav
+		left: 115px
+@media only screen and (max-width : 650px)
+	//header
+	.header--inner .header-carousel .header-slide .h1
+		font-size: 45px
+	//contacts
+	.contacts--item .demo-icon
+		margin-right: 0
+	.inp-wrap
+		width: 100%
+		margin-right: 0
+	.inp-wrap:first-child
+		margin-right: 0
+	.inp-wrap:nth-child(3)
+		width: 100%
+	.contacts-inp
+		margin-right: 0
+
+@media only screen and (max-width : 575px)
+	// numbers
+	.numbers--box
+		flex-direction: column
+	.numbers--bgi
+		height: 100%
+	.numbers--item
+		&:first-child
+			margin-top: 30px
+			&::after, &::before
+				background-color: transparent
+
+		&:last-child
+			margin-bottom: 30px
+
+		&::after, &::before
+			content: ''
+			position: absolute
+			top: 0
+			bottom: 0
+			height: 3px
+			width: 100%
+			background-color: $greenColor
+		&::after
+			left: 0
+		&::before
+			width: 0
+	//// contacts
+	.contacts--list
+		flex-direction: column
+@media only screen and (max-width : 540px)
+	.header--inner .header-carousel .header-slide
+		padding-left: 25px
+	.header--inner .header-carousel .header-slide .h1
+		line-height: 55px
+		font-size: 40px
+	.header-slide--nav
+		left: 90px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.about--left
+		margin-left: 55px
+	.about--p, .about--link
+		padding-right: 0
+		margin-left: -60px
+	// projects
+	.projects--left
+		padding-left: 55px
+	//heder
+	
+@media only screen and (max-width : 350px)
+	//projects
+	.projects--item--img
+		width: 100%
+		img
+			width: 100%
+	.header--inner .header-carousel .header-slide .h1
+		font-size: 37px
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+

@@ -1,0 +1,10 @@
+{
+  "navPages": {
+    "Home" : "index.html",
+    "About us" : "#",
+    "Project" : "#",
+    "Clients" : "#",
+    "Partners" : "#",
+    "News" : "#"
+  }
+}
