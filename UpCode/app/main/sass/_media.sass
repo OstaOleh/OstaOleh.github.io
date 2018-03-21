@@ -1,0 +1,166 @@
+@import "bourbon"
+@import "vars"
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/// header
+	.header-search
+		margin-left: -75px
+	.header-search .header-search-btn
+		right: -40px
+	////// choose section
+	.choose-wrap
+		justify-content: center
+	.choose-item
+		width: auto
+		padding-bottom: 15px
+		&:last-child, &:first-child
+			margin-right: auto
+			margin-left: auto
+	.contact-form input
+		width: 100%
+		margin-left: 0
+	.contact-form textarea
+		width: 100%
+	nav .sf-menu>li
+		margin-right: 35px
+	.footer-line
+		margin-top: 0
+		
+@media only screen and (max-width : 1024px)
+	.hamburger
+		display: flex
+		top: -12px
+	.sf-menu,.header-search
+		display: none !important
+	.drop-down
+		display: block
+		background-color: transparent
+		font-family: $default-font
+		position: relative
+		top: 0
+		z-index: 99
+		border-top: none
+		padding: 0
+		margin-right: 0
+		li>a
+			text-transform: capitalize
+			color: $accentTC
+			line-height: 36px
+			letter-spacing: 0.075em
+	.mm-listview  li a
+		text-transform: uppercase
+		color: $accentTC
+		line-height: 36px
+	.mm-listview>li:not(.mm-divider):after
+		content: ''
+	.visible
+		display: block !important
+	.active-mnu
+		padding-left: 20px
+	.mm-menu.mm-offcanvas.mm-opened
+		z-index: 100
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/// about
+	.about-img
+		margin-left: auto
+	//// contacts
+	.contact-form
+		margin-left: 0
+	.contact-form .btn
+		right: 0
+@media only screen and (max-width : 991px)
+	//header
+	.hamburger
+		top: -39px
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	///// conatcts
+	#contacts
+		padding: 0
+	.contact-form
+		padding-top: 84px
+		padding-bottom: 0
+		margin-bottom: 50px
+	.form-wrap
+		margin: 0
+	.contact-form .btn
+		bottom: 0
+	#contacts address
+		margin-bottom: 12px
+	.footer-line
+		flex-direction: column
+	#map
+		top: auto
+		height: 676px
+@media only screen and (max-width : 572px)
+	///// conatcts
+	#map
+		top: 233px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	///// header
+	.owl-prev, .owl-next
+		display: none
+	/// contacts
+	.contact-form .btn
+		right: 0
+		padding: 10px 30px
+	// footer
+	.footer-line
+		padding-top: 15px
+	.footer-line .copyright
+		text-align: center
+		line-height: 16px
+
+@media only screen and (max-width : 392px)
+	/// contacts
+	#map
+		top: 260px
+	//// about
+	.about-img
+		width: 270px
+		height: 435px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	.h1
+		font-size: 28px
+		margin-bottom: 0
+	.slide p
+		font-size: 14px
+	.banner-carousel .owl-dots
+		bottom: 20px
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.h1
+		font-size: 64px
+		margin-bottom: 40px
+	.slide p
+		font-size: 16px
+	.banner-carousel .owl-dots
+		bottom: 40px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/

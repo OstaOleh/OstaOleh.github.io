@@ -1,0 +1,45 @@
+header
+		.header-line
+				.container
+						.row
+								.col-md-2
+										a(href="index.html", class="header-logo")
+												img(src='main/img/logo.png', alt='UPQODE')
+								.col-md-6.col-md-offset-3
+										nav(id="mmenu", class="header-nav nav")
+												ul.sf-menu.my-menu.header-nav-list
+														each link, item in nav.navPages
+																if item == "home"
+																		li(class="header-nav-item header-nav-item-"+item)
+																				a(href=link, class="mnu_first header-nav-link header-nav-link-"+item)
+																						| #{item}
+																else if item == "products"
+																		li(class="header-nav-item header-nav-item-"+item)
+																				a(href=link, class="mnu_first first-drop_item header-nav-link header-nav-link-"+item)
+																						| #{item}
+																				ul.drop-down.header-nav-list-inner
+																						each link, item in nav.productsInner
+																								if item == "name surname2"
+																										li(class="header-nav-item-inner header-nav-item-inner-withList header-nav-item-inner-"+item)
+																												a(href=link, class="mnu_first first-drop_item header-nav-link-inner header-nav-link-inner-"+item)
+																														| #{item}
+																												ul.drop-down.header-nav-list-inner
+																														each innerlink, inneritem in nav.productsInner2
+																																li(class="header-nav-item-inner header-nav-item-inner-"+inneritem)
+																																		a(href=innerlink, class="mnu_first first-drop_item header-nav-link-inner header-nav-link-inner-"+inneritem)
+																																				| #{inneritem}
+																								else
+																										li(class="header-nav-item-inner header-nav-item-inner-"+item)
+																												a(href=link, class="mnu_first header-nav-link-inner header-nav-link-inner-"+item)
+																														|#{item}
+																else
+																		li(class="header-nav-item header-nav-item-"+item)
+																				a(href=link, class="mnu_first header-nav-link header-nav-link-"+item)
+																						|#{item}
+								.col-md-1
+										.header-search
+												input#header-search(type='text', name='search-field')
+												a(href='#', class="header-search-btn", type="button")
+														i.fa.fa-search(aria-hidden='true')
+										.hamburger
+												.hamburger-inner

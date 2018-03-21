@@ -1,0 +1,57 @@
+block variables
+
+doctype html
+html(lang='ru')
+	head
+		meta(charset='utf-8')
+		title #{title}
+
+		meta(name='description', content='')
+		meta(http-equiv='X-UA-Compatible', content="IE=edge")
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+
+		meta(property='og:image', content='main/img/favicon//image.jpg')
+		link(rel="apple-touch-icon", sizes="180x180", href="main/img/favicon/apple-touch-icon.png")
+		link(rel="icon", type="image/png", sizes="32x32", href="main/img/favicon/favicon-32x32.png")
+		link(rel="icon", type="image/png", sizes="16x16", href="main/img/favicon/favicon-16x16.png")
+		link(rel="manifest", href="main/img/favicon/site.webmanifest")
+		link(rel="mask-icon", href="main/img/favicon/safari-pinned-tab.svg", color="#5bbad5")
+		meta(name="msapplication-TileColor", content="#da532c")
+
+
+		//- <!-- Chrome, Firefox OS and Opera -->
+		meta(name='theme-color', content='#000')
+		//- <!-- Windows Phone -->
+		meta(name='msapplication-navbutton-color', content='#000')
+		//- <!-- iOS Safari -->
+		meta(name='apple-mobile-web-app-status-bar-style', content='#000')
+
+
+	body(class=pageClass)
+		.wrapper
+			include ../modules/header
+			include ../modules/main/header-banner
+			include ../modules/main/why-us
+			include ../modules/main/products
+			include ../modules/main/about
+			include ../modules/main/contact-us
+			include ../modules/footer
+
+	link(rel='stylesheet', href='main/css/main.min.css')
+	script.
+		var map;
+		function initMap() {
+		map = new google.maps.Map(document.getElementById('map'), {
+		center: {lat: 49.8525358, lng: 24.0258649},
+		zoom: 15
+		});
+		}
+	script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAvD-T36uFyCVrchGy7es_7FYeyvzSyZyo&callback=initMap')
+	script(src='main/js/scripts.min.js')
+
+
+
+
+
+
+

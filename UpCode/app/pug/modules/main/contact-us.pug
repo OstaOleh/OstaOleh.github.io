@@ -1,0 +1,47 @@
+section#contact
+	.container
+		.row
+			.col-md-8.col-md-offset-2
+				h2.h2
+					| get in  
+					span.blue touch
+				p
+					| Quisque fermentum, nisl mattis volutpat rhoncus, tellus est congue nibh, ut euismod quam nisi quis felis. Nullam at scelerisque tellus mattis volutpat rhoncus,
+	#map
+		//- iframe(src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10289.873047203248!2d24.022256!3d49.852448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x808e8719253e6808!2z0KTQvtGA0YPQvCDQm9GM0LLRltCy!5e0!3m2!1sru!2sua!4v1494239957640', style='border:0', allowfullscreen='')
+	.form-wrap
+		.container
+			.row
+				.col-md-10.col-md-push-1
+					.row.form-bg
+						.col-md-7.col-md-offset-1.col-sm-7.col-xs-12
+							form.contact-form(action='#')
+								input(type='text', name='FullName', required='', placeholder='Full Name')
+								input(type='text', name='email', required='', class="contact-input-email" placeholder='E-mail Address', list='mails')
+								datalist#mails
+									option(value='somename@mail.com')
+									option(value='name@mail.com')
+									option(value='yourname@mail.com')
+								textarea(name='message', placeholder='Message')
+								.chackbox
+									.ckackbox_like-wrap
+										input#ckackbox_like(type='checkbox', name='like')
+									label(for='ckackbox_like') I like your company
+								input.btn(type='submit', name='Submit', value='Send')
+						.col-md-3.col-sm-3.col-xs-12
+							#contacts
+								address
+									| 69/A, Some Street Name	
+									br
+									| 										Your City, code 01234 
+									br
+									| 										Country Name
+								address
+									a.tel-contact(href='tel:+8801234567898')  +880 123 456 78 98
+									br
+									a.tel-contact(href='tel:+8609876487495')  +860 987 648 74 95
+								address
+									a.mail-contact(href='mailto:company@mail.com') company@mail.com
+									br
+									a.mail-contact(href='mailto:sales@mail.com') sales@mail.com
+						.col-md-3.hidden-md.hidden-lg
