@@ -50,7 +50,7 @@ $(function() {
 	});
 
 
-
+	//// MMENU PLUGIN
 	$('.hamburger').on('click', function () {
 		var mmAPI = $("#my-menu").data("mmenu");
 		mmAPI.open();
